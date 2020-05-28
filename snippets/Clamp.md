@@ -9,6 +9,8 @@ If `n` falls within the range, return `n`.
 Otherwise, return the nearest number in the range.
 
 ```go
+import "math"
+
 func Clamp(n, a, b float64) float64 {
 	return math.Max(math.Min(n, math.Max(a, b)), math.Min(a, b))
 }
