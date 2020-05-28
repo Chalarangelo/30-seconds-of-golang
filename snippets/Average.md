@@ -1,6 +1,6 @@
 ---
 title: Average
-tags: math,intermediate
+tags: math,beginner
 ---
 
 Returns the average of two or more numbers.
