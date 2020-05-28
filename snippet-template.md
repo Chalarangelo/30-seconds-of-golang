@@ -1,5 +1,5 @@
 ---
-title: mySnippet
+title: MySnippet
 tags: utility,intermediate
 ---
 
@@ -8,9 +8,11 @@ Explain briefly what the snippet does.
 Explain briefly how the snippet works.
 
 ```go
-// Your snippet code here
+func MySnippet() {
+  return
+}
 ```
 
 ```go
-// Your snippet examples here
+MySnippet() // "result"
 ```
