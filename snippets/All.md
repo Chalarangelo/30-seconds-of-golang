@@ -7,7 +7,7 @@ Returns `true` if all elements in the collection pass the test implemented by th
 
 Implement an appropriate function for each type.
 Use `range` to iterate over elements in the given collection, returning `true` or `false` based on the result of `fn`.
-The functions can easily be tweaked to allow for an index to be passed to `fn` as a second argument, if desired.
+The functions can be tweaked to allow for an index to be passed to `fn` as a second argument, if desired.
 
 ```go
 func AllInt(arr []int, fn func(int) bool) bool {
