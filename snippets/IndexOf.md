@@ -16,7 +16,7 @@ func IndexOf(params ...interface{}) int {
 	arr, v := reflect.ValueOf(params[0]),
 		reflect.ValueOf(params[1]).Interface()
 
-	for i := 0; i < arr.Len()-1; i++ {
+	for i := 0; i < arr.Len(); i++ {
 		if arr.Index(i).Interface() == v {
 			return i
 		}
