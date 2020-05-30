@@ -1,6 +1,6 @@
 ---
 title: IndexOf
-tags: collection,intermediate
+tags: collection,reflection,intermediate
 ---
 
 Returns the first index at which a given element can be found in the collection, or `-1` if it is not present.

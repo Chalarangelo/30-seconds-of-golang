@@ -1,6 +1,6 @@
 ---
 title: Compact
-tags: collection,intermediate
+tags: collection,reflection,intermediate
 ---
 
 Removes zero values from a collection.

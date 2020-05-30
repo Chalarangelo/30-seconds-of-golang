@@ -1,6 +1,6 @@
 ---
 title: Includes
-tags: collection,intermediate
+tags: collection,reflection,intermediate
 ---
 
 Returns `true` if the given element can be found in the collection, `false` otherwise.

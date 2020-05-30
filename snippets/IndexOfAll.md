@@ -1,6 +1,6 @@
 ---
 title: IndexOfAll
-tags: collection,intermediate
+tags: collection,reflection,intermediate
 ---
 
 Returns all indexes of a given element in the collection, or `[-1]` if it is not present.

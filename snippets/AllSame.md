@@ -1,6 +1,6 @@
 ---
 title: AllSame
-tags: collection,intermediate
+tags: collection,reflection,intermediate
 ---
 
 Returns `true` if all elements in the collection have the same value, `false` otherwise.
