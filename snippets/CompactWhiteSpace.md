@@ -1,6 +1,6 @@
 ---
 title: CompactWhiteSpace
-tags: string,intermediate
+tags: string,beginner
 ---
 
 Returns a string with whitespaces compacted.
