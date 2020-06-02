@@ -1,6 +1,6 @@
 ---
 title: FindIndex
-tags: collection,intermediate
+tags: collection,beginner
 ---
 
 Returns the index of the first element in the provided collection that satisfies the provided testing function, `-1` otherwise.
@@ -46,5 +46,5 @@ func FindIndexString(arr []string, f func(string) bool) int {
 
 ```go
 FindIndexInt([]int{1, 1, 2}, func(x int) bool { return x%2 == 0 }) // 2
-FindIndexFloat64([]float64{4.0, 6.0}, func(x float64) bool { return x%2.0 == 1.0 }) // 0
+FindIndexFloat64([]float64{4.0, 6.0}, func(x float64) bool { return x%2.0 == 1.0 }) // -1
 ```
