@@ -5,7 +5,7 @@ tags: string,beginner
 
 Replaces all but the last `n` of characters with the specified mask character.
 
-Slice the given string appropriately, using `strings.Repeat()` to add `n` times `m` to the beginning.
+- Slice the given string appropriately, using `strings.Repeat()` to add `n` times `m` to the beginning.
 
 ```go
 import "strings"

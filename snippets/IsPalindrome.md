@@ -5,8 +5,8 @@ tags: string,intermediate
 
 Returns `true` if the given string is a palindrome, `false` otherwise.
 
-Use `strings.Fields()`, `strings.Join()` and `strings.ToLower()` to get the normalized, lowercase string without spaces.
-Use `range` to iterate over the string and compare each rune to the one in the reversed string.
+- Use `strings.Fields()`, `strings.Join()` and `strings.ToLower()` to get the normalized, lowercase string without spaces.
+- Use `range` to iterate over the string and compare each rune to the one in the reversed string.
 
 ```go
 import "strings"

@@ -5,8 +5,8 @@ tags: collection,map,reflection,intermediate
 
 Returns a map with index-value pairs.
 
-Use `reflect.ValueOf()` to get the array or slice, `make()` to create a new `map`.
-Use a `for` loop with `Value.Len()`, `Value.Index()` and `Value.Interface()` to iterate over each element and add it to the map.
+- Use `reflect.ValueOf()` to get the array or slice, `make()` to create a new `map`.
+- Use a `for` loop with `Value.Len()`, `Value.Index()` and `Value.Interface()` to iterate over each element and add it to the map.
 
 ```go
 import "reflect"

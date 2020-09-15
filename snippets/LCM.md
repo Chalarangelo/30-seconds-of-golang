@@ -5,9 +5,9 @@ tags: math,recursion,intermediate
 
 Returns the least common multiple of two or more numbers.
 
-Define a `gcd()` function that determines the greatest common divisor, using recursion.
-Use `gcd()` and the fact that `LCM(x, y) = x * y / GCD(x,y)` to determine the least common multiple.
-Use `range` to apply the calculation to all given numbers.
+- Define a `gcd()` function that determines the greatest common divisor, using recursion.
+- Use `gcd()` and the fact that `LCM(x, y) = x * y / GCD(x,y)` to determine the least common multiple.
+- Use `range` to apply the calculation to all given numbers.
 
 
 ```go

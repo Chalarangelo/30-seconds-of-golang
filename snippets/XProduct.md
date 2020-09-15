@@ -5,8 +5,8 @@ tags: collection,reflection,intermediate
 
 Creates a new slice out of the two supplied by creating each possible pair from the collections.
 
-Use `reflect.ValueOf()` to get the arrays or slices, `Value.Len()` and `make()` to create an appropriate slice for the result.
-Use a `for` loop with `Value.Len()`, `Value.Index()` and `Value.Interface()` to populate the result.
+- Use `reflect.ValueOf()` to get the arrays or slices, `Value.Len()` and `make()` to create an appropriate slice for the result.
+- Use a `for` loop with `Value.Len()`, `Value.Index()` and `Value.Interface()` to populate the result.
 
 ```go
 import "reflect"

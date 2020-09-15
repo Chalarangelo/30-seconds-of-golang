@@ -5,7 +5,7 @@ tags: math,beginner
 
 Maps a number from one range to another range.
 
-Returns `num` mapped between `oMin`-`oMax` from `iMin`-`iMax`.
+- Returns `num` mapped between `oMin`-`oMax` from `iMin`-`iMax`.
 
 ```go
 func MapNumRange(num, iMin, iMax, oMin, oMax float64) float64 {

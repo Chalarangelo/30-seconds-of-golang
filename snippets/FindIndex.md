@@ -5,9 +5,9 @@ tags: collection,beginner
 
 Returns the index of the first element in the provided collection that satisfies the provided testing function, `-1` otherwise.
 
-Implement an appropriate function for each type.
-Use `range` to iterate over elements in the given collection, using `f` to determine if the element matches.
-Return the index of the first matching element or `-1` if none is found.
+- Implement an appropriate function for each type.
+- Use `range` to iterate over elements in the given collection, using `f` to determine if the element matches.
+- Return the index of the first matching element or `-1` if none is found.
 
 ```go
 func FindIndexInt(arr []int, f func(int) bool) int {

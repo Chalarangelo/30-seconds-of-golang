@@ -5,7 +5,7 @@ tags: string,beginner
 
 Converts a string to snake case.
 
-Use `strings.Fields()` to get the words in the string, `strings.Join()` to combine them using `"_"` as the separator.
+- Use `strings.Fields()` to get the words in the string, `strings.Join()` to combine them using `"_"` as the separator.
 
 ```go
 import "strings"

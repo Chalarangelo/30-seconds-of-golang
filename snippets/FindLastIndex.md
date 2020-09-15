@@ -5,9 +5,9 @@ tags: collection,beginner
 
 Returns the index of the last element in the provided collection that satisfies the provided testing function, `-1` otherwise.
 
-Implement an appropriate function for each type.
-Use a `for` loop to iterate over elements in the given collection, using `f` to determine if the element matches.
-Return the index of the last matching element or `-1` if none is found.
+- Implement an appropriate function for each type.
+- Use a `for` loop to iterate over elements in the given collection, using `f` to determine if the element matches.
+- Return the index of the last matching element or `-1` if none is found.
 
 ```go
 func FindLastIndexInt(arr []int, f func(int) bool) int {

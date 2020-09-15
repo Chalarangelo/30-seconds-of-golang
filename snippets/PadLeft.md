@@ -5,7 +5,7 @@ tags: string,beginner
 
 Pads the given string from the start with spaces until the resulting string reaches the given length.
 
-Use `fmt.Sprintf()` wih an appropriate format specifier to return the formatted value.
+- Use `fmt.Sprintf()` wih an appropriate format specifier to return the formatted value.
 
 ```go
 import "fmt"

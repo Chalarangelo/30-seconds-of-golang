@@ -5,8 +5,8 @@ tags: collection,math,beginner
 
 Initializes an integer slice in the given range (inclusive).
 
-Use `make()` to create a slice of appropriate size.
-Use `range` to iterate over the slice and populate it.
+- Use `make()` to create a slice of appropriate size.
+- Use `range` to iterate over the slice and populate it.
 
 ```go
 func IntRange(f, t, s int) []int {

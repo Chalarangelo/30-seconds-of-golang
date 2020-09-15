@@ -5,10 +5,10 @@ tags: collection,error,intermediate
 
 Returns the value of the last element in the provided collection that satisfies the provided testing function.
 
-Implement an appropriate function for each type.
-Use a `for` loop to iterate over elements in the given collection, using `f` to determine if the element matches.
-Return the value of the last matching element and `nil` if a value is found.
-Use `fmt.Errorf()` to generate an appropriate error and return it alongsie a zero value for the type.
+- Implement an appropriate function for each type.
+- Use a `for` loop to iterate over elements in the given collection, using `f` to determine if the element matches.
+- Return the value of the last matching element and `nil` if a value is found.
+- Use `fmt.Errorf()` to generate an appropriate error and return it alongsie a zero value for the type.
 
 ```go
 import "fmt"

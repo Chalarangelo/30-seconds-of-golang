@@ -5,9 +5,9 @@ tags: collection,reflection,intermediate
 
 Returns all indexes of a given element in the collection, or `[-1]` if it is not present.
 
-Use `reflect.ValueOf()` to get the array or slice and the value to search for, `make()` to create an appropriate slice.
-Use a `for` loop with `Value.Len()` and `Value.Index()` to iterate over each element and compare it to the search value.
-Use `append()` to add indexes of matching elements to the resulting slice.
+- Use `reflect.ValueOf()` to get the array or slice and the value to search for, `make()` to create an appropriate slice.
+- Use a `for` loop with `Value.Len()` and `Value.Index()` to iterate over each element and compare it to the search value.
+- Use `append()` to add indexes of matching elements to the resulting slice.
 
 ```go
 import "reflect"

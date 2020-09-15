@@ -5,10 +5,10 @@ tags: collection,intermediate
 
 Returns a new slice with all elements that pass the test implemented by the provided function.
 
-Implement an appropriate function for each type.
-Use `make()` to create an appropriate slice.
-Use `range` to iterate over elements in the given collection, using `append()` to add them to the resulting slice based on the result of `fn`.
-The functions can be tweaked to allow for an index to be passed to `fn` as a second argument, if desired.
+- Implement an appropriate function for each type.
+- Use `make()` to create an appropriate slice.
+- Use `range` to iterate over elements in the given collection, using `append()` to add them to the resulting slice based on the result of `fn`.
+- The functions can be tweaked to allow for an index to be passed to `fn` as a second argument, if desired.
 
 ```go
 func FilterInt(arr []int, f func(int) bool) []int {

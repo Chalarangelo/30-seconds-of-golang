@@ -5,7 +5,7 @@ tags: math,beginner
 
 Returns the sum of two or more numbers.
 
-Use `range` to iterate over the values of `nums`, adding each value to `sum`.
+- Use `range` to iterate over the values of `nums`, adding each value to `sum`.
 
 ```go
 func Sum(nums ...float64) float64 {

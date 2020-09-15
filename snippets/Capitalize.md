@@ -5,7 +5,7 @@ tags: string,beginner
 
 Capitalizes the first letter of a string.
 
-Use `strings.ToUpper()` to capitalize the first letter of the string.
+- Use `strings.ToUpper()` to capitalize the first letter of the string.
 
 ```go
 import "strings"

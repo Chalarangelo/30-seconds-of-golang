@@ -5,8 +5,8 @@ tags: math,intermediate
 
 Returns the median of a collection of numbers.
 
-Find the midpoint and convert it to an integer, use `sort.Float64s()` to sort the given numbers.
-Return the number at the midpoint if length is odd, otherwise the average of the two middle numbers.
+- Find the midpoint and convert it to an integer, use `sort.Float64s()` to sort the given numbers.
+- Return the number at the midpoint if length is odd, otherwise the average of the two middle numbers.
 
 ```go
 import (
