@@ -5,9 +5,9 @@ tags: collection,reflection,intermediate
 
 Returns the first index at which a given element can be found in the collection, or `-1` if it is not present.
 
-Use `reflect.ValueOf()` to get the array or slice and the value to search for.
-Use a `for` loop with `Value.Len()` and `Value.Index()` to iterate over each element and compare it to the search value.
-Return the index if a matching value is found, `-1` otherwise.
+- Use `reflect.ValueOf()` to get the array or slice and the value to search for.
+- Use a `for` loop with `Value.Len()` and `Value.Index()` to iterate over each element and compare it to the search value.
+- Return the index if a matching value is found, `-1` otherwise.
 
 ```go
 import "reflect"

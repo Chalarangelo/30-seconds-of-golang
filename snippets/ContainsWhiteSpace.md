@@ -5,7 +5,7 @@ tags: string,regexp,beginner
 
 Returns a string with whitespaces compacted.
 
-Use `Regexp.MatchString()` with a regular expression to check if the given string contains any whitespace characters.
+- Use `Regexp.MatchString()` with a regular expression to check if the given string contains any whitespace characters.
 
 ```go
 import "regexp"

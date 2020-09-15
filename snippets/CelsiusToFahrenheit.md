@@ -5,7 +5,7 @@ tags: math,beginner
 
 Converts Celsius to Fahrenheit.
 
-Follows the conversion formula `F = 1.8C + 32`.
+- Follows the conversion formula `F = 1.8C + 32`.
 
 ```go
 func CelsiusToFahrenheit(d float64) float64 {

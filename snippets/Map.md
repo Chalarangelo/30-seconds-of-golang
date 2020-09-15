@@ -5,10 +5,10 @@ tags: collection,intermediate
 
 Returns a new slice populated with the results of calling the provided function on every element in the collection.
 
-Implement an appropriate function for each type conversion.
-Use `make()` to create an appropriate slice.
-Use `range` to iterate over elements in the given collection, setting the value at the same index in the resulting slice based on the result of `fn`.
-The functions can be tweaked to allow for an index to be passed to `fn` as a second argument, if desired.
+- Implement an appropriate function for each type conversion.
+- Use `make()` to create an appropriate slice.
+- Use `range` to iterate over elements in the given collection, setting the value at the same index in the resulting slice based on the result of `fn`.
+- The functions can be tweaked to allow for an index to be passed to `fn` as a second argument, if desired.
 
 ```go
 func MapInt(arr []int, fn func(int) int) []int {

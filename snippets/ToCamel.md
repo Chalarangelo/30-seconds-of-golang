@@ -5,8 +5,8 @@ tags: string,intermediate
 
 Converts a string to kebab case.
 
-Use `range` and `strings.Fields()` to iterate over the words in the string.
-Use `strings.ToUpper()` and `strings.ToLower()` to capitalize the first letter of each word and lowercase the rest.
+- Use `range` and `strings.Fields()` to iterate over the words in the string.
+- Use `strings.ToUpper()` and `strings.ToLower()` to capitalize the first letter of each word and lowercase the rest.
 
 ```go
 import "strings"

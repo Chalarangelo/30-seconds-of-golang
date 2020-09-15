@@ -5,8 +5,8 @@ tags: collection,beginner
 
 Concatenates two slices.
 
-Implement an appropriate function for each type.
-Use `append()` and the fact that it's a variadic function to concatenate the slices.
+- Implement an appropriate function for each type.
+- Use `append()` and the fact that it's a variadic function to concatenate the slices.
 
 ```go
 func ConcatInt(a,b []int) []int {

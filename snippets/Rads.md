@@ -5,7 +5,7 @@ tags: math,beginner
 
 Converts an angle from degrees to radians.
 
-Use `math.Pi` and the degree to radian formula to convert the angle from degrees to radians.
+- Use `math.Pi` and the degree to radian formula to convert the angle from degrees to radians.
 
 ```go
 import "math"

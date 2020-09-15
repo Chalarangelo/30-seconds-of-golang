@@ -5,10 +5,10 @@ tags: collection,reflection,advanced
 
 Creates a collection of elements, grouped based on the position in the original collections.
 
-Use `range` to iterate over the `params`, `reflect.ValueOf()` and `Value.Len()` to find the longest collection.
-Use `make()` to create a 2D `interface{}` slice of length equal to the longest collection.
-Use `make()` to create a slice for each element in the result, `range` to iterate over `params`.
-Use `reflect.ValueOf()`, `Value.Len()`, `append()`, `Value.Index()` and `Value.Interface()` to add values to the result.
+- Use `range` to iterate over the `params`, `reflect.ValueOf()` and `Value.Len()` to find the longest collection.
+- Use `make()` to create a 2D `interface{}` slice of length equal to the longest collection.
+- Use `make()` to create a slice for each element in the result, `range` to iterate over `params`.
+- Use `reflect.ValueOf()`, `Value.Len()`, `append()`, `Value.Index()` and `Value.Interface()` to add values to the result.
 
 ```go
 import "reflect"

@@ -5,7 +5,7 @@ tags: string,beginner
 
 Indents each line in the provided string.
 
-Use `strings.Replace()` to prepend `i` to each line.
+- Use `strings.Replace()` to prepend `i` to each line.
 
 ```go
 import "strings"

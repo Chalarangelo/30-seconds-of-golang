@@ -5,9 +5,9 @@ tags: collection,reflection,intermediate
 
 Removes zero values from a collection.
 
-Use `reflect.ValueOf()` to get the array or slice, `make()` to make an appropriate slice.
-Use a `for` loop with `Value.Len()` and `Value.Index()` to iterate over each element.
-Use `append()` to add it to the resulting slice if `Value.IsZero()` is `false.
+- Use `reflect.ValueOf()` to get the array or slice, `make()` to make an appropriate slice.
+- Use a `for` loop with `Value.Len()` and `Value.Index()` to iterate over each element.
+- Use `append()` to add it to the resulting slice if `Value.IsZero()` is `false.
 
 ```go
 import "reflect"

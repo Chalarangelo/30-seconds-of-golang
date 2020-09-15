@@ -5,9 +5,9 @@ tags: collection,map,intermediate
 
 Returns a map with the unique values of the collection as keys and their frequencies as the values.
 
-Implement an appropriate function for each type.
-Use `make()` to create a `map`.
-Use `range` to iterate over the elements in the collection, adding to existing keys every time the same value is encountered.
+- Implement an appropriate function for each type.
+- Use `make()` to create a `map`.
+- Use `range` to iterate over the elements in the collection, adding to existing keys every time the same value is encountered.
 
 ```go
 func FrequenciesInt(arr []int) map[int]int {

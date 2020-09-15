@@ -5,7 +5,7 @@ tags: math,random,beginner
 
 Returns a random integer in the specified range.
 
-Use `rand.Intn()` to generate a random number between `0` and the distance between `min` and `max` and add `min` to it.
+- Use `rand.Intn()` to generate a random number between `0` and the distance between `min` and `max` and add `min` to it.
 
 ```go
 import "math/rand"

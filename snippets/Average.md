@@ -5,8 +5,8 @@ tags: math,beginner
 
 Returns the average of two or more numbers.
 
-Use `range` to iterate over the values of `nums`, adding each value to `sum`.
-Return the result of dividing `sum` with `len(nums)`.
+- Use `range` to iterate over the values of `nums`, adding each value to `sum`.
+- Return the result of dividing `sum` with `len(nums)`.
 
 ```go
 func Average(nums ...float64) float64 {

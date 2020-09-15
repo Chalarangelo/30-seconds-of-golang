@@ -5,8 +5,8 @@ tags: math,beginner
 
 Checks if the given number falls within the given range.
 
-Use `math.Min()` and `math.Max()` to determine the start and end of the range.
-Use arithmetic comparison to check if the given number is in the specified range.
+- Use `math.Min()` and `math.Max()` to determine the start and end of the range.
+- Use arithmetic comparison to check if the given number is in the specified range.
 
 ```go
 import "math"

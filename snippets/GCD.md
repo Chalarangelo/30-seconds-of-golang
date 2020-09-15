@@ -5,10 +5,10 @@ tags: math,recursion,intermediate
 
 Calculates the greatest common divisor between two or more numbers.
 
-Define a `gcd()` function for two numbers, which uses recursion.
-Base case is when `y` equals `0`, which returns `x`.
-Otherwise the GCD of `y` and the remainder of the division `x/y` is returned.
-Use `gcd()` and `range` to apply the calculation to all given numbers.
+- Define a `gcd()` function for two numbers, which uses recursion.
+- Base case is when `y` equals `0`, which returns `x`.
+- Otherwise the GCD of `y` and the remainder of the division `x/y` is returned.
+- Use `gcd()` and `range` to apply the calculation to all given numbers.
 
 ```go
 func gcd(x, y int) int {

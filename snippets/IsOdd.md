@@ -5,8 +5,8 @@ tags: math,beginner
 
 Returns `true` if the given number is odd, `false` otherwise.
 
-Checks whether a number is odd or even using the modulo (`%`) operator.
-Returns `true` if the number is odd, `false` if the number is even.
+- Checks whether a number is odd or even using the modulo (`%`) operator.
+- Returns `true` if the number is odd, `false` if the number is even.
 
 ```go
 func IsOdd(n int) bool {

@@ -5,8 +5,8 @@ tags: math,intermediate
 
 Returns the maximum value of two or more numbers.
 
-Use `math.Inf(-1)` to set the initial maximum value to negative infinity.
-Use `range` and `math.Max()` to iterate over the numbers and get the maximum value.
+- Use `math.Inf(-1)` to set the initial maximum value to negative infinity.
+- Use `range` and `math.Max()` to iterate over the numbers and get the maximum value.
 
 ```go
 import "math"

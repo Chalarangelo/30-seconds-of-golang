@@ -5,9 +5,9 @@ tags: string,beginner
 
 Reverses a string
 
-Use `make()` to create an appropriate `rune` slice.
-Use `range` and `len()` to iterate over the string's runes and add them in reverse to the result.
-Use `string()` to convert the `rune` slice to a `string`.
+- Use `make()` to create an appropriate `rune` slice.
+- Use `range` and `len()` to iterate over the string's runes and add them in reverse to the result.
+- Use `string()` to convert the `rune` slice to a `string`.
 
 ```go
 func ReverseString(s string) string {

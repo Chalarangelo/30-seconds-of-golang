@@ -5,7 +5,7 @@ tags: string,regexp,beginner
 
 Returns a string with whitespaces compacted.
 
-Use `Regexp.ReplaceAllString()` with a regular expression to replace all occurrences of 2 or more whitespace characters with a single space.
+- Use `Regexp.ReplaceAllString()` with a regular expression to replace all occurrences of 2 or more whitespace characters with a single space.
 
 ```go
 import "regexp"

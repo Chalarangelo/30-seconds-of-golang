@@ -5,7 +5,7 @@ tags: string,beginner
 
 Converts the given value to a string.
 
-Use `fmt.Sprintf()` with the `"%v"` format specifier to convert the given value to a string.
+- Use `fmt.Sprintf()` with the `"%v"` format specifier to convert the given value to a string.
 
 ```go
 import "fmt"

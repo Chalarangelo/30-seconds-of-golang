@@ -5,8 +5,8 @@ tags: math,beginner
 
 Clamps `n` within the inclusive range specified by the boundary values `a` and `b`.
 
-If `n` falls within the range, return `n`.
-Otherwise, return the nearest number in the range.
+- If `n` falls within the range, return `n`.
+- Otherwise, return the nearest number in the range.
 
 ```go
 import "math"

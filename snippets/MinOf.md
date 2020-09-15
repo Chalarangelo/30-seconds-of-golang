@@ -5,8 +5,8 @@ tags: math,intermediate
 
 Returns the minimum value of two or more numbers.
 
-Use `math.Inf(1)` to set the initial minimum value to positive infinity.
-Use `range` and `math.Min()` to iterate over the numbers and get the minimum value.
+- Use `math.Inf(1)` to set the initial minimum value to positive infinity.
+- Use `range` and `math.Min()` to iterate over the numbers and get the minimum value.
 
 ```go
 import "math"

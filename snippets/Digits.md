@@ -5,8 +5,8 @@ tags: math,intermediate
 
 Converts an integer to an array of digits.
 
-Use `strconv.Itoa()` to convert the given number to a string, `make()` and `len()` to create an appropriate slice.
-Use `range` in combination with `strings.Split()` to iterate over the digits, converting them to `int` using `strconv.Atoi()`.
+- Use `strconv.Itoa()` to convert the given number to a string, `make()` and `len()` to create an appropriate slice.
+- Use `range` in combination with `strings.Split()` to iterate over the digits, converting them to `int` using `strconv.Atoi()`.
 
 ```go
 import (

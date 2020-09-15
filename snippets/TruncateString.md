@@ -5,8 +5,8 @@ tags: string,beginner
 
 Truncates a string up to a specified length.
 
-Use `len()` to determine if the length is greater than `l`.
-Return the string truncated to the desired length, with `"..."` appended to the end or the original string.
+- Use `len()` to determine if the length is greater than `l`.
+- Return the string truncated to the desired length, with `"..."` appended to the end or the original string.
 
 ```go
 func TruncateString(s string, l int) string {
